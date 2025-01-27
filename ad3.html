@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="bg=BG">
+	<head>
+	<meta http-equiv="content-type" content="text/hmtl;charset=UTF-8">
+		<title> Civetta </title>
+			<link rel="icon" href="icon.ico">
+			<style>
+			
+						body
+						{display:grid;
+		grid-template-rows: auto auto auto auto;
+		grid-template-columns: 15% 75%;
+		grid-template-areas: 'side header' 
+							 'side menu'
+							 'side content'
+							 'side footer';
+		gap: 10px;
+		background-color: #333333;
+		padding: 10px 0;
+		
+			
+			background-color: black;
+  background-image: url('back3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+	h1 {
+			color: pink;
+			text-shadow: 2px 2px 4px black, 0 1px black, 1px 0 black, 0 -1px black;
+			font-family: "Helvetica";
+		}
+	h2 {
+			color: white;
+			text-shadow: 3px 1px 2px #333333;
+			font-family: "Helvetica";
+		}
+		
+			
+
+	}
+header {
+	grid-area: header;
+	background-image: url("back2.png");
+		background-color: black;
+}
+article {
+	grid-area: content; 
+		background-color: #0a0a0a;
+}
+footer {
+	grid-area: footer;
+	background: black
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+</style>
+			</head>
+			
+		<body>
+	<header>
+			<center>
+				<h1 style="font-family:Arial Black" style="color:blue">Civetta Scintilla<h1/>
+		</center>
+	</header>
+
+	<article>
+		<center>
+			<img class="demo" src="ad322.png" alt="beamng2" width="auto" height="700px">
+			<h2 class="blink_me"> 234,420€ </h2>
+		<a href="https://www.instagram.com/marto_xd_lmao/" class="button"><h1 class="blink_m">BUY NOW HERE!</h1></a>
+		</center>
+		
+	</article>
+	<footer>
+		<center>
+			<h4 style="color:gray" style="font-family:Arial">*цена е за най-евтиният модел</h4>
+		</center>	
+	</footer>
+	
